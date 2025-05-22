@@ -1,0 +1,101 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #0a1930;
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  user-select: none;
+}
+.logo-container {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.logo-arias {
+  color: #f3f3f3;
+  font-size: 2.5rem;
+  user-select: none;
+}
+
+.info-container {
+  display: flex;
+  position: absolute;
+  left: 230px;
+  top: 17%;
+  color: #f3f3f3;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-container h4 {
+  color: #2ca5a9;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.info-container h3 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #8991b1;
+}
+
+.info-container .info-p {
+  width: 600px;
+  color: #525b7a;
+}
+
+.info-container .info-p strong a {
+  color: #2ca5a9;
+  text-decoration: none;
+}
+
+.shiny-button {
+  cursor: pointer;
+  background-color: #111;
+  border: 1px solid #353535;
+  border-radius: 50px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+  width: 140px;
+  height: auto;
+}
+
+.card-container {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.tilted-card-demo-text {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    left: 1rem;
+    top: 20%;
+    padding-right: 1rem;
+  }
+
+  .info-description {
+    width: 100%;
+  }
+
+  .card-container {
+    position: static;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+}

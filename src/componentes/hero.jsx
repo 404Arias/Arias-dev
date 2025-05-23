@@ -11,14 +11,13 @@ import Particles from "../Backgrounds/Particles/Particles";
 import TiltedCard from "./TiltedCard";
 import LogoG from "../imagenes/LogoGhibli.png";
 
-const FondoVideo = () => {
+const Hero = () => {
   const items = [
-    { label: "Home", href: "#" },
-    { label: "About", href: "#" },
-    { label: "Experience", href: "#" },
-    { label: "Skills", href: "#" },
-    { label: "Proyects", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+
+    { label: "Proyects", href: "#Proyects" },
+
     { label: "Blog", href: "#" },
   ];
   const handleAnimationComplete = () => {
@@ -84,15 +83,19 @@ const FondoVideo = () => {
         </section>
         <article className="info-p">
           <p>
-            Hola, soy Mathias, FullStack Developer con experiencia en el
-            desarrollo de soluciones web y aplicaciones escalables de extremo a
-            extremo. Me especializo en el diseño, implementación y mantenimiento
-            de sistemas tanto del lado del cliente (frontend) como del servidor
-            (backend), utilizando tecnologías modernas como JavaScript,
-            TypeScript, React, Node.js, Express y bases de datos relacionales y
-            no relacionales como PostgreSQL y MongoDB.{" "}
+            I am Mathias, a Full Stack Developer with experience in building
+            scalable web solutions and end-to-end applications. I specialize in
+            designing, implementing, and maintaining systems on both the
+            client-side (frontend) and server-side (backend), using modern
+            technologies such as JavaScript, React, Node.js, Express, Java, and
+            both relational and non-relational databases like PostgreSQL and
+            MongoDB.{" "}
             <strong>
-              <a href="#" target="blank">
+              <a
+                href="../imageness/CV.MathiasArias.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Curriculum
               </a>
             </strong>
@@ -132,4 +135,4 @@ const FondoVideo = () => {
   );
 };
 
-export default FondoVideo;
+export default Hero;

@@ -24,6 +24,7 @@
   color: #f3f3f3;
   font-size: 2.5rem;
   user-select: none;
+  font-weight: 600;
 }
 
 .info-container {
@@ -37,24 +38,25 @@
 }
 
 .info-container h4 {
-  color: #2ca5a9;
+  color: #64ffda;
   font-size: 1rem;
   margin-bottom: 15px;
 }
 
 .info-container h3 {
   font-size: 4rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #8991b1;
 }
 
 .info-container .info-p {
+  font-size: 1.1rem;
   width: 600px;
-  color: #525b7a;
+  color: #8892b0;
 }
 
 .info-container .info-p strong a {
-  color: #2ca5a9;
+  color: #64ffda;
   text-decoration: none;
 }
 

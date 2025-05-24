@@ -86,19 +86,19 @@ const About = () => {
               <div className="tech-grid">
                 <div className="tech-item">
                   <img src={htmlSVG} alt="React" />
-                  <span>React</span>
-                </div>
-                <div className="tech-item">
-                  <img src={cssSVG} alt="JavaScript" />
-                  <span>JavaScript</span>
-                </div>
-                <div className="tech-item">
-                  <img src={jsSVG} alt="HTML5" />
                   <span>HTML5</span>
                 </div>
                 <div className="tech-item">
-                  <img src={reactSVG} alt="CSS3" />
+                  <img src={cssSVG} alt="JavaScript" />
                   <span>CSS3</span>
+                </div>
+                <div className="tech-item">
+                  <img src={jsSVG} alt="HTML5" />
+                  <span>JavaScript</span>
+                </div>
+                <div className="tech-item">
+                  <img src={reactSVG} alt="CSS3" />
+                  <span>React</span>
                 </div>
                 <div className="tech-item">
                   <img src={gitSVG} alt="Git" />

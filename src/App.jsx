@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.css";
-import Hero from "./componentes/hero";
+import Hero from "./componentes/Hero";
 import About from "./componentes/About";
 import Proyects from "./componentes/Proyects";
-import Footer from "./componentes/footer";
+import Footer from "./componentes/Footer";
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="Proyects">
+      <section id="proyects">
         <Proyects />
       </section>
-      <footer>
+      <footer id="footer">
         <Footer />
       </footer>
     </>
